@@ -7,6 +7,10 @@ class Smart_Geyser_System {
         bool is_active;  
         bool is_heating; 
 
-    void activate();  
-    void deactivate(); 
+    void activate(){
+        this->is_active = true;
+    }
+    void deactivate(){
+        this->is_active = false;
+    }; 
 };

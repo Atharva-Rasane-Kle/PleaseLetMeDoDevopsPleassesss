@@ -8,7 +8,13 @@ class Smart_Geyser {
         int target_temperature;
         int current_temperature;
 
-    void set_target_temperature(int temp);
-    void start_heating();
-    void stop_heating();
+    void set_target_temperature(int temp){
+        this->target_temperature = temp;
+    };
+    void start_heating(){
+        this->is_powered_on = true;
+    }
+    void stop_heating(){
+        this->is_powered_on = false;
+    }
 };

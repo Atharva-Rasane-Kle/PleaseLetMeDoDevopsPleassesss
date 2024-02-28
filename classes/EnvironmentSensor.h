@@ -7,6 +7,11 @@ class Environment_Sensor {
         string season;
         int temperature;
 
-    string get_season();
-    int get_temperature();
+    string get_season(){
+        return this->season;
+    };
+
+    int get_temperature(){
+        return this->temperature;
+    };
 };

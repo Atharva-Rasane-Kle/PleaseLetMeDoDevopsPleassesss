@@ -8,10 +8,10 @@ class Home_Owner {
         bool is_up;
 
     void get_out_of_bed(){
-        is_up = true;
+       this->is_up = true;
     }
 
     void get_in_bed(){
-        is_up = false;
+        this->is_up = false;
     }
 };
